@@ -26,6 +26,7 @@ module.exports = function (config) {
     frameworks: ["jasmine"],
 
     browsers: ["Chrome"],
+    browserNoActivityTimeout: 100000
 
   });
 };
