@@ -10,7 +10,6 @@ module.exports = function (config) {
     'karma-junit-reporter',
     'karma-chrome-launcher',
     'karma-firefox-launcher',
-    'karma-opera-launcher',
     'karma-ie-launcher',
     'karma-jasmine'
     ],
