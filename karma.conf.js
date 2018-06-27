@@ -7,11 +7,12 @@ module.exports = function (config) {
 
     basePath: "./",
     plugins : [
-    'karma-junit-reporter',
-    'karma-chrome-launcher',
-    'karma-firefox-launcher',
-    'karma-ie-launcher',
-    'karma-jasmine'
+    "karma-junit-reporter",
+    "karma-chrome-launcher",
+    "karma-firefox-launcher",
+    "karma-ie-launcher",
+    "karma-jasmine",
+     "karma-phantomjs-launcher"
     ],
 
     files: [
